@@ -75,6 +75,9 @@ except:
     modelo.fit(entrenamiento, salida, n_epoch=1000, batch_size=10, show_metric=True)
     modelo.save("modelo.tflearn")
 
+# modelo.fit(entrenamiento, salida, n_epoch=1000, batch_size=10, show_metric=True)
+# modelo.save("modelo.tflearn")
+
 def mainBot():
     seguir = True
     while seguir:

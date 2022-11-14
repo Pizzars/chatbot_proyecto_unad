@@ -3,12 +3,50 @@
     {
       "tag": "saludo",
       "patrones": ["Hola", "Saludos", "hello"],
-      "respuestas": ["hola, que tal!", "Como te va?", "Un gusto de verte"]
+      "respuestas": ["Es un gusto para mi atenderte, en que te podría ayudar"]
+    },
+    {
+      "tag": "sintomas",
+      "patrones": [
+        "Me siento mal",
+        "Me quiero morir",
+        "Siento dolor",
+        "tengo maluquera",
+        "No puedo caminar"
+      ],
+      "respuestas": ["Entiendo, podrías darme más detalles de lo que sintes "]
+    },
+    {
+      "tag": "gripa",
+      "patrones": [
+        "tengo congestion nasal",
+        "tengo dolor en los huesos",
+        "tengo malestar general",
+        "tengo dolor de cabeza",
+        "tengo riñitis",
+        "tengo dolor de garganta",
+        "tengo Tos",
+        "me duele la cabeza",
+        "me deuel el cuenpo",
+        "tengo escalofrios",
+        "Siento cansancio",
+        "Siento cansancio"
+      ],
+      "respuestas": [
+        "Podrías tener gripa, puedes tomar acetaminofen cada 6 horas y reposar para que los sintomas se vayan."
+      ]
+    },
+    {
+      "tag": "agreadecimiento",
+      "patrones": ["Muchas gracias", "entiendo", "gracias", "ya veo", "vale"],
+      "respuestas": ["¿Podría ayudarte en algo más?"]
     },
     {
       "tag": "despedida",
-      "patrones": ["adios", "hasta la proxima", "Nos vemos"],
-      "respuestas": ["cuidate", "nos vemos pronto", "Te estaré esperando"]
+      "patrones": ["adios", "hasta la proxima", "Nos vemos", "Chao", "no"],
+      "respuestas": [
+        "Fue un gusto ayudarte, te estaré esperando para una próxima consulta"
+      ]
     }
   ]
 }
