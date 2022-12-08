@@ -1,3 +1,10 @@
+// El contenido del archivo está conpuesto por una estructura JSON dónde
+// en la llave contenido se encuentra un arrelgo que contiene todas las posibles preguntas con su repuesta
+// Cada elemento de este arreglo contiene tres llaves
+// Tag hace referencia al tipo de tema, es decir, un saludo, un tippo de sintoma, un tipo de enfermedad
+// Patrones hace referencia a los pósibles mensajes que puede ingresar el usario
+// Respuestas representa lo que debe responder el chartbot basado en los patrones relacionados
+
 {
   "contenido": [
     {
